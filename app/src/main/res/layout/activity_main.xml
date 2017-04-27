@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/headerPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/header_primary"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.3"/>
+
+    <Spinner
+        android:id="@+id/spinnerPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/headerAccent"
+        app:layout_constraintTop_toBottomOf="@+id/headerPrimary"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/headerAccent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/header_accent"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="?attr/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerAccent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPrimary"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Spinner
+        android:id="@+id/spinnerAccent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRandom"
+        app:layout_constraintTop_toBottomOf="@+id/headerAccent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_random"
+        android:textColor="@android:color/white"
+        android:backgroundTint="?attr/colorAccent"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"/>
+
+</android.support.constraint.ConstraintLayout>
