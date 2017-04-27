@@ -19,10 +19,7 @@ public class Colors {
 
         Resources.Theme theme = activity.getTheme();
         theme.applyStyle(sTheme.getPrimaryColor().getThemeRes(), true);
-
-        if (sTheme.getAccentColor() != null) {
-            activity.getTheme().applyStyle(sTheme.getAccentColor().getThemeRes(), true);
-        }
+        theme.applyStyle(sTheme.getAccentColor().getThemeRes(), true);
     }
 
     public static void setTheme(@NonNull ColorTheme theme) {

@@ -3,19 +3,20 @@ package com.marverenic.colors;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
 public final class ColorTheme implements Parcelable {
 
     @NonNull
     private final PrimaryColor mPrimaryColor;
 
-    @Nullable
+    @NonNull
     private final AccentColor mAccentColor;
 
-    public ColorTheme(@NonNull PrimaryColor primaryColor, @Nullable AccentColor accentColor) {
+    public ColorTheme(@NonNull PrimaryColor primaryColor, @NonNull AccentColor accentColor) {
         if (primaryColor == null) {
             throw new IllegalArgumentException("primary color cannot be null");
+        } else if (accentColor == null) {
+            throw new IllegalArgumentException("accent color cannot be null");
         }
 
         mPrimaryColor = primaryColor;
@@ -27,10 +28,12 @@ public final class ColorTheme implements Parcelable {
                 (AccentColor) in.readParcelable(AccentColor.class.getClassLoader()));
     }
 
+    @NonNull
     public PrimaryColor getPrimaryColor() {
         return mPrimaryColor;
     }
 
+    @NonNull
     public AccentColor getAccentColor() {
         return mAccentColor;
     }
@@ -73,7 +76,7 @@ public final class ColorTheme implements Parcelable {
     @Override
     public int hashCode() {
         int result = mPrimaryColor.hashCode();
-        result = 31 * result + (mAccentColor != null ? mAccentColor.hashCode() : 0);
+        result = 31 * result + mAccentColor.hashCode();
         return result;
     }
 }
