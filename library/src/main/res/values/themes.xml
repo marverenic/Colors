@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="_ColorsTheme"/>
+    <style name="_ColorsTheme.Primary"/>
+    <style name="_ColorsTheme.Accent"/>
+
+    <!--
+        Red
+    -->
+    <style name="_ColorsTheme.Primary.Red_500">
+        <item name="colorPrimary">@color/_color_lib_red_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_red_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Red_600">
+        <item name="colorPrimary">@color/_color_lib_red_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_red_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Red_700">
+        <item name="colorPrimary">@color/_color_lib_red_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_red_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Red_800">
+        <item name="colorPrimary">@color/_color_lib_red_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_red_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Red_A100">
+        <item name="colorAccent">@color/_color_lib_red_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Red_A200">
+        <item name="colorAccent">@color/_color_lib_red_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Red_A400">
+        <item name="colorAccent">@color/_color_lib_red_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Red_A700">
+        <item name="colorAccent">@color/_color_lib_red_A700</item>
+    </style>
+
+    <!--
+        Pink
+    -->
+    <style name="_ColorsTheme.Primary.Pink_500">
+        <item name="colorPrimary">@color/_color_lib_pink_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_pink_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Pink_600">
+        <item name="colorPrimary">@color/_color_lib_pink_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_pink_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Pink_700">
+        <item name="colorPrimary">@color/_color_lib_pink_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_pink_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Pink_800">
+        <item name="colorPrimary">@color/_color_lib_pink_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_pink_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Pink_A100">
+        <item name="colorAccent">@color/_color_lib_pink_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Pink_A200">
+        <item name="colorAccent">@color/_color_lib_pink_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Pink_A400">
+        <item name="colorAccent">@color/_color_lib_pink_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Pink_A700">
+        <item name="colorAccent">@color/_color_lib_pink_A700</item>
+    </style>
+
+    <!--
+        Purple
+    -->
+    <style name="_ColorsTheme.Primary.Purple_500">
+        <item name="colorPrimary">@color/_color_lib_purple_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_purple_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Purple_600">
+        <item name="colorPrimary">@color/_color_lib_purple_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_purple_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Purple_700">
+        <item name="colorPrimary">@color/_color_lib_purple_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_purple_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Purple_800">
+        <item name="colorPrimary">@color/_color_lib_purple_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_purple_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Purple_A100">
+        <item name="colorAccent">@color/_color_lib_purple_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Purple_A200">
+        <item name="colorAccent">@color/_color_lib_purple_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Purple_A400">
+        <item name="colorAccent">@color/_color_lib_purple_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Purple_A700">
+        <item name="colorAccent">@color/_color_lib_purple_A700</item>
+    </style>
+
+    <!--
+        Deep Purple
+    -->
+    <style name="_ColorsTheme.Primary.DeepPurple_500">
+        <item name="colorPrimary">@color/_color_lib_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_purple_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepPurple_600">
+        <item name="colorPrimary">@color/_color_lib_deep_purple_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_purple_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepPurple_700">
+        <item name="colorPrimary">@color/_color_lib_deep_purple_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_purple_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepPurple_800">
+        <item name="colorPrimary">@color/_color_lib_deep_purple_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_purple_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.DeepPurple_A100">
+        <item name="colorAccent">@color/_color_lib_deep_purple_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepPurple_A200">
+        <item name="colorAccent">@color/_color_lib_deep_purple_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepPurple_A400">
+        <item name="colorAccent">@color/_color_lib_deep_purple_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepPurple_A700">
+        <item name="colorAccent">@color/_color_lib_deep_purple_A700</item>
+    </style>
+
+    <!--
+        Indigo
+    -->
+    <style name="_ColorsTheme.Primary.Indigo_500">
+        <item name="colorPrimary">@color/_color_lib_indigo_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_indigo_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Indigo_600">
+        <item name="colorPrimary">@color/_color_lib_indigo_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_indigo_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Indigo_700">
+        <item name="colorPrimary">@color/_color_lib_indigo_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_indigo_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Indigo_800">
+        <item name="colorPrimary">@color/_color_lib_indigo_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_indigo_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Indigo_A100">
+        <item name="colorAccent">@color/_color_lib_indigo_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Indigo_A200">
+        <item name="colorAccent">@color/_color_lib_indigo_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Indigo_A400">
+        <item name="colorAccent">@color/_color_lib_indigo_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Indigo_A700">
+        <item name="colorAccent">@color/_color_lib_indigo_A700</item>
+    </style>
+
+    <!--
+        Blue
+    -->
+    <style name="_ColorsTheme.Primary.Blue_500">
+        <item name="colorPrimary">@color/_color_lib_blue_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Blue_600">
+        <item name="colorPrimary">@color/_color_lib_blue_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Blue_700">
+        <item name="colorPrimary">@color/_color_lib_blue_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Blue_800">
+        <item name="colorPrimary">@color/_color_lib_blue_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Blue_A100">
+        <item name="colorAccent">@color/_color_lib_blue_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Blue_A200">
+        <item name="colorAccent">@color/_color_lib_blue_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Blue_A400">
+        <item name="colorAccent">@color/_color_lib_blue_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Blue_A700">
+        <item name="colorAccent">@color/_color_lib_blue_A700</item>
+    </style>
+
+    <!--
+        Light Blue
+    -->
+    <style name="_ColorsTheme.Primary.LightBlue_500">
+        <item name="colorPrimary">@color/_color_lib_light_blue_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_blue_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightBlue_600">
+        <item name="colorPrimary">@color/_color_lib_light_blue_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_blue_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightBlue_700">
+        <item name="colorPrimary">@color/_color_lib_light_blue_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_blue_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightBlue_800">
+        <item name="colorPrimary">@color/_color_lib_light_blue_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_blue_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.LightBlue_A100">
+        <item name="colorAccent">@color/_color_lib_light_blue_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightBlue_A200">
+        <item name="colorAccent">@color/_color_lib_light_blue_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightBlue_A400">
+        <item name="colorAccent">@color/_color_lib_light_blue_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightBlue_A700">
+        <item name="colorAccent">@color/_color_lib_light_blue_A700</item>
+    </style>
+
+    <!--
+        Cyan
+    -->
+    <style name="_ColorsTheme.Primary.Cyan_500">
+        <item name="colorPrimary">@color/_color_lib_cyan_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_cyan_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Cyan_600">
+        <item name="colorPrimary">@color/_color_lib_cyan_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_cyan_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Cyan_700">
+        <item name="colorPrimary">@color/_color_lib_cyan_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_cyan_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Cyan_800">
+        <item name="colorPrimary">@color/_color_lib_cyan_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_cyan_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Cyan_A100">
+        <item name="colorAccent">@color/_color_lib_cyan_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Cyan_A200">
+        <item name="colorAccent">@color/_color_lib_cyan_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Cyan_A400">
+        <item name="colorAccent">@color/_color_lib_cyan_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Cyan_A700">
+        <item name="colorAccent">@color/_color_lib_cyan_A700</item>
+    </style>
+
+    <!--
+        Teal
+    -->
+    <style name="_ColorsTheme.Primary.Teal_500">
+        <item name="colorPrimary">@color/_color_lib_teal_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_teal_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Teal_600">
+        <item name="colorPrimary">@color/_color_lib_teal_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_teal_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Teal_700">
+        <item name="colorPrimary">@color/_color_lib_teal_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_teal_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Teal_800">
+        <item name="colorPrimary">@color/_color_lib_teal_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_teal_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Teal_A100">
+        <item name="colorAccent">@color/_color_lib_teal_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Teal_A200">
+        <item name="colorAccent">@color/_color_lib_teal_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Teal_A400">
+        <item name="colorAccent">@color/_color_lib_teal_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Teal_A700">
+        <item name="colorAccent">@color/_color_lib_teal_A700</item>
+    </style>
+
+    <!--
+        Green
+    -->
+    <style name="_ColorsTheme.Primary.Green_500">
+        <item name="colorPrimary">@color/_color_lib_green_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_green_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Green_600">
+        <item name="colorPrimary">@color/_color_lib_green_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_green_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Green_700">
+        <item name="colorPrimary">@color/_color_lib_green_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_green_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Green_800">
+        <item name="colorPrimary">@color/_color_lib_green_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_green_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Green_A100">
+        <item name="colorAccent">@color/_color_lib_green_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Green_A200">
+        <item name="colorAccent">@color/_color_lib_green_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Green_A400">
+        <item name="colorAccent">@color/_color_lib_green_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Green_A700">
+        <item name="colorAccent">@color/_color_lib_green_A700</item>
+    </style>
+
+    <!--
+        Light Green
+    -->
+    <style name="_ColorsTheme.Primary.LightGreen_500">
+        <item name="colorPrimary">@color/_color_lib_light_green_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_green_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightGreen_600">
+        <item name="colorPrimary">@color/_color_lib_light_green_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_green_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightGreen_700">
+        <item name="colorPrimary">@color/_color_lib_light_green_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_green_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.LightGreen_800">
+        <item name="colorPrimary">@color/_color_lib_light_green_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_light_green_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.LightGreen_A100">
+        <item name="colorAccent">@color/_color_lib_light_green_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightGreen_A200">
+        <item name="colorAccent">@color/_color_lib_light_green_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightGreen_A400">
+        <item name="colorAccent">@color/_color_lib_light_green_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.LightGreen_A700">
+        <item name="colorAccent">@color/_color_lib_light_green_A700</item>
+    </style>
+
+    <!--
+        Lime
+    -->
+    <style name="_ColorsTheme.Primary.Lime_500">
+        <item name="colorPrimary">@color/_color_lib_lime_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_lime_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Lime_600">
+        <item name="colorPrimary">@color/_color_lib_lime_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_lime_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Lime_700">
+        <item name="colorPrimary">@color/_color_lib_lime_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_lime_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Lime_800">
+        <item name="colorPrimary">@color/_color_lib_lime_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_lime_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Lime_A100">
+        <item name="colorAccent">@color/_color_lib_lime_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Lime_A200">
+        <item name="colorAccent">@color/_color_lib_lime_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Lime_A400">
+        <item name="colorAccent">@color/_color_lib_lime_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Lime_A700">
+        <item name="colorAccent">@color/_color_lib_lime_A700</item>
+    </style>
+
+    <!--
+        Yellow
+    -->
+    <style name="_ColorsTheme.Primary.Yellow_500">
+        <item name="colorPrimary">@color/_color_lib_yellow_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_yellow_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Yellow_600">
+        <item name="colorPrimary">@color/_color_lib_yellow_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_yellow_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Yellow_700">
+        <item name="colorPrimary">@color/_color_lib_yellow_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_yellow_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Yellow_800">
+        <item name="colorPrimary">@color/_color_lib_yellow_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_yellow_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Yellow_A100">
+        <item name="colorAccent">@color/_color_lib_yellow_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Yellow_A200">
+        <item name="colorAccent">@color/_color_lib_yellow_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Yellow_A400">
+        <item name="colorAccent">@color/_color_lib_yellow_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Yellow_A700">
+        <item name="colorAccent">@color/_color_lib_yellow_A700</item>
+    </style>
+
+    <!--
+        Amber
+    -->
+    <style name="_ColorsTheme.Primary.Amber_500">
+        <item name="colorPrimary">@color/_color_lib_amber_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_amber_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Amber_600">
+        <item name="colorPrimary">@color/_color_lib_amber_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_amber_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Amber_700">
+        <item name="colorPrimary">@color/_color_lib_amber_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_amber_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Amber_800">
+        <item name="colorPrimary">@color/_color_lib_amber_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_amber_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Amber_A100">
+        <item name="colorAccent">@color/_color_lib_amber_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Amber_A200">
+        <item name="colorAccent">@color/_color_lib_amber_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Amber_A400">
+        <item name="colorAccent">@color/_color_lib_amber_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Amber_A700">
+        <item name="colorAccent">@color/_color_lib_amber_A700</item>
+    </style>
+
+    <!--
+        Orange
+    -->
+    <style name="_ColorsTheme.Primary.Orange_500">
+        <item name="colorPrimary">@color/_color_lib_orange_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_orange_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Orange_600">
+        <item name="colorPrimary">@color/_color_lib_orange_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_orange_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Orange_700">
+        <item name="colorPrimary">@color/_color_lib_orange_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_orange_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Orange_800">
+        <item name="colorPrimary">@color/_color_lib_orange_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_orange_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.Orange_A100">
+        <item name="colorAccent">@color/_color_lib_orange_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Orange_A200">
+        <item name="colorAccent">@color/_color_lib_orange_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Orange_A400">
+        <item name="colorAccent">@color/_color_lib_orange_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.Orange_A700">
+        <item name="colorAccent">@color/_color_lib_orange_A700</item>
+    </style>
+
+    <!--
+        Deep Orange
+    -->
+    <style name="_ColorsTheme.Primary.DeepOrange_500">
+        <item name="colorPrimary">@color/_color_lib_deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_orange_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepOrange_600">
+        <item name="colorPrimary">@color/_color_lib_deep_orange_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_orange_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepOrange_700">
+        <item name="colorPrimary">@color/_color_lib_deep_orange_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_orange_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.DeepOrange_800">
+        <item name="colorPrimary">@color/_color_lib_deep_orange_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_deep_orange_900</item>
+    </style>
+
+    <style name="_ColorsTheme.Accent.DeepOrange_A100">
+        <item name="colorAccent">@color/_color_lib_deep_orange_A100</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepOrange_A200">
+        <item name="colorAccent">@color/_color_lib_deep_orange_A200</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepOrange_A400">
+        <item name="colorAccent">@color/_color_lib_deep_orange_A400</item>
+    </style>
+    <style name="_ColorsTheme.Accent.DeepOrange_A700">
+        <item name="colorAccent">@color/_color_lib_deep_orange_A700</item>
+    </style>
+
+    <!--
+        Brown
+    -->
+    <style name="_ColorsTheme.Primary.Brown_500">
+        <item name="colorPrimary">@color/_color_lib_brown_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_brown_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Brown_600">
+        <item name="colorPrimary">@color/_color_lib_brown_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_brown_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Brown_700">
+        <item name="colorPrimary">@color/_color_lib_brown_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_brown_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Brown_800">
+        <item name="colorPrimary">@color/_color_lib_brown_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_brown_900</item>
+    </style>
+
+
+</resources>
