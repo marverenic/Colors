@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:text="@string/action_random"
         android:textColor="@android:color/white"
-        android:backgroundTint="?attr/colorAccent"
+        app:backgroundTint="?attr/colorAccent"
         android:paddingLeft="64dp"
         android:paddingRight="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
