@@ -37,7 +37,7 @@ public class EnumAdapter<E extends Enum<E>> extends BaseAdapter {
         }
 
         TextView text = (TextView) convertView.findViewById(android.R.id.text1);
-        text.setText(getItem(position).name());
+        text.setText(getItem(position).toString());
 
         return convertView;
     }
@@ -50,7 +50,7 @@ public class EnumAdapter<E extends Enum<E>> extends BaseAdapter {
         }
 
         TextView text = (TextView) convertView.findViewById(android.R.id.text1);
-        text.setText(getItem(position).name());
+        text.setText(getItem(position).toString());
 
         return convertView;
     }
