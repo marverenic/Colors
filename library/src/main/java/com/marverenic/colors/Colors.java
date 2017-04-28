@@ -22,6 +22,11 @@ public class Colors {
         theme.applyStyle(sTheme.getAccentColor().getThemeRes(), true);
     }
 
+    public static void setTheme(@NonNull PrimaryColor primaryColor,
+                                @NonNull AccentColor accentColor) {
+        setTheme(new ColorTheme(primaryColor, accentColor));
+    }
+
     public static void setTheme(@NonNull ColorTheme theme) {
         if (theme == null) {
             throw new IllegalArgumentException("theme cannot be null");
