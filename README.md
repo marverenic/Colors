@@ -1,10 +1,19 @@
 # Colors
 
+[ ![Download](https://api.bintray.com/packages/marverenic/Colors/com.marverenic.colors/images/download.svg) ](https://bintray.com/marverenic/Colors/com.marverenic.colors/_latestVersion)
+
 Colors is a theming library for Android. It allows your app to use over 4,000 color combinations from the [Material Design Palette](https://material.io/guidelines/style/color.html#color-color-tool) by separately picking a primary and accent color.
 
 <p align="center">
     <img src="https://github.com/marverenic/Colors/raw/master/preview.gif">
 </p>
+
+## Gradle Installation
+```
+dependencies {
+    compile 'com.marverenic.colors:colors:1.0'
+}
+```
 
 ## Usage
 ### Set a Theme
