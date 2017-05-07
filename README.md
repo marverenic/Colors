@@ -48,7 +48,7 @@ public class YourActivity extends Activity {
 ### User Theme Preferences
 Colors doesn't provide a built-in way to offer the user a theme choice. Developers can build any interface to present to the user and add any number of constraints to which themes can be built.
 
-Colors also does not save the last chosen theme automatically. If you're using `SharedPreferences`, however, you can esaily save the theme:
+Colors also does not save the last chosen theme automatically. If you're using `SharedPreferences`, however, you can easily save the theme:
 
 ```java
 SharedPreferences prefs = ...
