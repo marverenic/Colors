@@ -1,8 +1,14 @@
 package com.marverenic.colors;
 
 import android.app.Activity;
+import android.app.ActivityManager.TaskDescription;
 import android.content.res.Resources;
+import android.os.Build;
+import android.support.annotation.ColorInt;
+import android.support.annotation.ColorRes;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
+import android.support.v4.content.ContextCompat;
 
 public class Colors {
 
@@ -20,6 +26,19 @@ public class Colors {
         Resources.Theme theme = activity.getTheme();
         theme.applyStyle(sTheme.getPrimaryColor().getThemeRes(), true);
         theme.applyStyle(sTheme.getAccentColor().getThemeRes(), true);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            applyTaskDescription(activity);
+        }
+    }
+
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+    private static void applyTaskDescription(Activity activity) {
+        @ColorRes int primaryColorRes = sTheme.getPrimaryColor().getPrimaryColorRes();
+        @ColorInt int primaryColor = ContextCompat.getColor(activity, primaryColorRes);
+
+        TaskDescription taskDescription = new TaskDescription(null, null, primaryColor);
+        activity.setTaskDescription(taskDescription);
     }
 
     public static void setTheme(@NonNull PrimaryColor primaryColor,
