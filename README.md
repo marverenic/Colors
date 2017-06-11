@@ -1,6 +1,7 @@
 # Colors
 
-[ ![Download](https://api.bintray.com/packages/marverenic/Colors/com.marverenic.colors/images/download.svg) ](https://bintray.com/marverenic/Colors/com.marverenic.colors/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/marverenic/Colors/com.marverenic.colors/images/download.svg)](https://bintray.com/marverenic/Colors/com.marverenic.colors/_latestVersion)
+[![CircleCI](https://circleci.com/gh/marverenic/Colors.svg?style=svg)](https://circleci.com/gh/marverenic/Colors)
 
 Colors is a theming library for Android. It allows your app to use over 4,000 color combinations from the [Material Design Palette](https://material.io/guidelines/style/color.html#color-color-tool) by separately picking a primary and accent color.
 
@@ -33,23 +34,21 @@ Already extending from another library's Activity? No problem. Just create an in
 
 ```java
 public class YourActivity extends Activity {
-    private ColorsActivityDelegate delegate = ...;
+    private ColorsActivityDelegate delegate = new ColorsActivityDelegate(this);
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         delegate.onCreate(); // Must be called before setContentView
         
-        setContentView(...);
-        ...
+        setContentView(/* Your layout resource */);
+        // More initialization code for your Activity
     }
     
     @Override
     public void onResume() {
         super.onResume();
         delegate.onResume();
-        
-        ...
     }
 }
 ```
@@ -60,7 +59,7 @@ Colors doesn't provide a built-in way to offer the user a theme choice. Develope
 Colors also does not save the last chosen theme automatically. If you're using `SharedPreferences`, however, you can easily save the theme:
 
 ```java
-SharedPreferences prefs = ...
+SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 PrimaryColor primaryColor = PrimaryColor.INDIGO_500;
 AccentColor accentColor = AccentColor.PINK_A200;
 
@@ -73,7 +72,7 @@ prefs.edit()
 And restore it just as easily:
 
 ```java
-SharedPreferences prefs = ...
+SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 PrimaryColor defaultPrimary = PrimaryColor.INDIGO_500;
 AccentColor defaultAccent = AccentColor.PINK_A200;
 
