@@ -25,11 +25,6 @@ public class ColorsTest {
         when(mActivity.getTheme()).thenReturn(mTheme);
     }
 
-    @Test(expected = IllegalStateException.class)
-    public void testThemeThrowsWhenThemeNotSpecified() {
-        Colors.theme(mActivity);
-    }
-
     @Test
     public void testThemeAppliesStyles() {
         Colors.setTheme(PrimaryColor.INDIGO_500, AccentColor.PINK_A400);
