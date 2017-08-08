@@ -125,7 +125,7 @@ public enum AccentColor implements Parcelable {
     }
 
     @ColorRes
-    private int getAccentColorRes() {
+    public int getAccentColorRes() {
         return mAccentColorRes;
     }
 
