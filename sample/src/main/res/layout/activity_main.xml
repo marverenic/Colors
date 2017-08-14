@@ -24,12 +24,12 @@
         android:id="@+id/spinnerPrimary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/headerAccent"
-        app:layout_constraintTop_toBottomOf="@+id/headerPrimary"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/headerAccent"
+        app:layout_constraintTop_toBottomOf="@+id/headerPrimary"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
@@ -40,10 +40,10 @@
         android:text="@string/header_accent"
         style="@style/Base.TextAppearance.AppCompat.Subhead"
         android:textColor="?attr/colorAccent"
-        app:layout_constraintBottom_toTopOf="@+id/spinnerAccent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerPrimary"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerAccent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPrimary"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -51,12 +51,39 @@
         android:id="@+id/spinnerAccent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/buttonRandom"
-        app:layout_constraintTop_toBottomOf="@+id/headerAccent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/headerAccent"
+        app:layout_constraintBottom_toTopOf="@+id/headerNightMode"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/headerNightMode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/header_night_mode"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerNightMode"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerAccent"/>
+
+    <Spinner
+        android:id="@+id/spinnerNightMode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/headerNightMode"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRandom"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 

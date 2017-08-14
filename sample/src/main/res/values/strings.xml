@@ -2,5 +2,6 @@
     <string name="app_name">Colors Demo</string>
     <string name="header_primary">Primary Color</string>
     <string name="header_accent">Accent Color</string>
+    <string name="header_night_mode">Night Mode</string>
     <string name="action_random">I\'m feeling lucky</string>
 </resources>
