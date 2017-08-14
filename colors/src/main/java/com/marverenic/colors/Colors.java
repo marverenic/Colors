@@ -9,6 +9,8 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 
 public class Colors {
 
@@ -21,6 +23,10 @@ public class Colors {
     public static void theme(Activity activity) {
         if (sTheme == null) {
             throw new IllegalStateException("Theme has not been set");
+        }
+
+        if (activity instanceof AppCompatActivity) {
+            AppCompatDelegate.setDefaultNightMode(sTheme.getNightMode().getAppcompatMode());
         }
 
         Resources.Theme theme = activity.getTheme();
@@ -44,6 +50,12 @@ public class Colors {
     public static void setTheme(@NonNull PrimaryColor primaryColor,
                                 @NonNull AccentColor accentColor) {
         setTheme(new ColorTheme(primaryColor, accentColor));
+    }
+
+    public static void setTheme(@NonNull PrimaryColor primaryColor,
+                                @NonNull AccentColor accentColor,
+                                @NonNull NightMode nightMode) {
+        setTheme(new ColorTheme(primaryColor, accentColor, nightMode));
     }
 
     public static void setTheme(@NonNull ColorTheme theme) {
