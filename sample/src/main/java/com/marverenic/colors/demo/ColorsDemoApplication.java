@@ -1,4 +1,4 @@
-package com.marverenic.demo.colors;
+package com.marverenic.colors.demo;
 
 import android.app.Application;
 

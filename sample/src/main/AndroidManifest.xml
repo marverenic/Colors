@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.marverenic.demo.colors">
+    package="com.marverenic.colors.demo">
 
     <application
         android:name=".ColorsDemoApplication"
