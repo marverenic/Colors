@@ -68,7 +68,8 @@ public class MainActivity extends ColorsAppCompatActivity {
                 ColorTheme currentTheme = Colors.getTheme();
 
                 if (primaryColor != currentTheme.getPrimaryColor()) {
-                    ColorTheme theme = new ColorTheme(primaryColor, currentTheme.getAccentColor());
+                    ColorTheme theme = new ColorTheme(primaryColor, currentTheme.getAccentColor(),
+                            currentTheme.getNightMode());
                     Colors.setTheme(theme);
                     recreate();
                 }
@@ -85,7 +86,8 @@ public class MainActivity extends ColorsAppCompatActivity {
                 ColorTheme currentTheme = Colors.getTheme();
 
                 if (accentColor != currentTheme.getAccentColor()) {
-                    ColorTheme theme = new ColorTheme(currentTheme.getPrimaryColor(), accentColor);
+                    ColorTheme theme = new ColorTheme(currentTheme.getPrimaryColor(), accentColor,
+                            currentTheme.getNightMode());
                     Colors.setTheme(theme);
                     recreate();
                 }
