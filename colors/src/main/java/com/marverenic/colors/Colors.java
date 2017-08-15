@@ -3,10 +3,12 @@ package com.marverenic.colors;
 import android.app.Activity;
 import android.app.ActivityManager.TaskDescription;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
 import android.os.Build;
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +23,12 @@ public class Colors {
     }
 
     public static void theme(Activity activity) {
+        theme(activity, null, null);
+    }
+
+    public static void theme(Activity activity, @Nullable String taskName,
+                             @Nullable Bitmap taskIcon) {
+
         if (sTheme == null) {
             throw new IllegalStateException("Theme has not been set");
         }
@@ -34,16 +42,17 @@ public class Colors {
         theme.applyStyle(sTheme.getAccentColor().getThemeRes(), true);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            applyTaskDescription(activity);
+            applyTaskDescription(activity, taskName, taskIcon);
         }
     }
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
-    private static void applyTaskDescription(Activity activity) {
+    private static void applyTaskDescription(Activity activity, @Nullable String taskName,
+                                             @Nullable Bitmap taskIcon) {
         @ColorRes int primaryColorRes = sTheme.getPrimaryColor().getPrimaryColorRes();
         @ColorInt int primaryColor = ContextCompat.getColor(activity, primaryColorRes);
 
-        TaskDescription taskDescription = new TaskDescription(null, null, primaryColor);
+        TaskDescription taskDescription = new TaskDescription(taskName, taskIcon, primaryColor);
         activity.setTaskDescription(taskDescription);
     }
 
