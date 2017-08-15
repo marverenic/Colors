@@ -234,5 +234,24 @@
     <color name="_color_lib_brown_800">#4E342E</color>
     <color name="_color_lib_brown_900">#3E2723</color>
 
+    <!--
+        Blue Grey
+    -->
+    <color name="_color_lib_blue_grey_500">#607D8B</color>
+    <color name="_color_lib_blue_grey_600">#546E7A</color>
+    <color name="_color_lib_blue_grey_700">#455A64</color>
+    <color name="_color_lib_blue_grey_800">#37474F</color>
+    <color name="_color_lib_blue_grey_900">#263238</color>
+
+    <!--
+        Grey
+    -->
+    <color name="_color_lib_grey_500">#9E9E9E</color>
+    <color name="_color_lib_grey_600">#757575</color>
+    <color name="_color_lib_grey_700">#616161</color>
+    <color name="_color_lib_grey_800">#424242</color>
+    <color name="_color_lib_grey_900">#212121</color>
+    <color name="_color_lib_grey_1000">#181818</color>
+
 
 </resources>

@@ -553,5 +553,53 @@
         <item name="colorPrimaryDark">@color/_color_lib_brown_900</item>
     </style>
 
+    <!--
+        Blue Grey
+    -->
+    <style name="_ColorsTheme.Primary.BlueGrey_500">
+        <item name="colorPrimary">@color/_color_lib_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_grey_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.BlueGrey_600">
+        <item name="colorPrimary">@color/_color_lib_blue_grey_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_grey_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.BlueGrey_700">
+        <item name="colorPrimary">@color/_color_lib_blue_grey_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_grey_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.BlueGrey_800">
+        <item name="colorPrimary">@color/_color_lib_blue_grey_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_blue_grey_900</item>
+    </style>
+
+    <!--
+        Grey
+    -->
+    <style name="_ColorsTheme.Primary.Grey_500">
+        <item name="colorPrimary">@color/_color_lib_grey_500</item>
+        <item name="colorPrimaryDark">@color/_color_lib_grey_700</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Grey_600">
+        <item name="colorPrimary">@color/_color_lib_grey_600</item>
+        <item name="colorPrimaryDark">@color/_color_lib_grey_800</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Grey_700">
+        <item name="colorPrimary">@color/_color_lib_grey_700</item>
+        <item name="colorPrimaryDark">@color/_color_lib_grey_900</item>
+    </style>
+    <style name="_ColorsTheme.Primary.Grey_800">
+        <item name="colorPrimary">@color/_color_lib_grey_800</item>
+        <item name="colorPrimaryDark">@color/_color_lib_grey_900</item>
+    </style>
+
+    <!--
+        Black
+    -->
+    <style name="_ColorsTheme.Primary.Grey_900">
+        <item name="colorPrimary">@color/_color_lib_grey_900</item>
+        <item name="colorPrimaryDark">@color/_color_lib_grey_1000</item>
+    </style>
+
 
 </resources>

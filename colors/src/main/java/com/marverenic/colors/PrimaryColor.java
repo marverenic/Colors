@@ -93,6 +93,18 @@ public enum PrimaryColor implements Parcelable {
     BROWN_700("Brown 700", R.style._ColorsTheme_Primary_Brown_700, R.color._color_lib_brown_700, R.color._color_lib_brown_900),
     BROWN_800("Brown 800", R.style._ColorsTheme_Primary_Brown_800, R.color._color_lib_brown_500, R.color._color_lib_brown_900),
 
+    BLUE_GREY_500("Blue Grey 500", R.style._ColorsTheme_Primary_BlueGrey_500, R.color._color_lib_blue_grey_500, R.color._color_lib_blue_grey_700),
+    BLUE_GREY_600("Blue Grey 600", R.style._ColorsTheme_Primary_BlueGrey_600, R.color._color_lib_blue_grey_600, R.color._color_lib_blue_grey_800),
+    BLUE_GREY_700("Blue Grey 700", R.style._ColorsTheme_Primary_BlueGrey_700, R.color._color_lib_blue_grey_700, R.color._color_lib_blue_grey_900),
+    BLUE_GREY_800("Blue Grey 800", R.style._ColorsTheme_Primary_BlueGrey_800, R.color._color_lib_blue_grey_500, R.color._color_lib_blue_grey_900),
+
+    Grey_500("Grey 500", R.style._ColorsTheme_Primary_Grey_500, R.color._color_lib_grey_500, R.color._color_lib_grey_700),
+    Grey_600("Grey 600", R.style._ColorsTheme_Primary_Grey_600, R.color._color_lib_grey_600, R.color._color_lib_grey_800),
+    Grey_700("Grey 700", R.style._ColorsTheme_Primary_Grey_700, R.color._color_lib_grey_700, R.color._color_lib_grey_900),
+    Grey_800("Grey 800", R.style._ColorsTheme_Primary_Grey_800, R.color._color_lib_grey_500, R.color._color_lib_grey_900),
+
+    BLACK("Grey 900", R.style._ColorsTheme_Primary_Grey_900, R.color._color_lib_grey_900, R.color._color_lib_grey_1000),
+
     ;
 
     private final String mId;
