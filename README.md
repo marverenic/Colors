@@ -12,9 +12,11 @@ Colors is a theming library for Android. It allows your app to use over 5,000 co
 ## Gradle Installation
 ```
 dependencies {
-    compile 'com.marverenic.colors:colors:1.0'
+    compile 'com.marverenic.colors:colors:1.x'
 }
 ```
+
+The latest version and release notes can be found on the [Releases](https://github.com/marverenic/Colors/releases) page.
 
 ## Usage
 ### Set a Theme
