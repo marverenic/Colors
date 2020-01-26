@@ -1,4 +1,11 @@
-# Colors
+# Colors (Deprecated)
+
+⚠ **Colors is deprecated** as of January 26, 2020.
+This library will continue to work, but will not receive support or updates.
+Consider using [garretyoder/Colorful](https://github.com/garretyoder/Colorful) instead.
+[Read more](https://andrewbailey.dev/post/2020/01/26/rebranding-marverenic).
+
+---
 
 [ ![Download](https://api.bintray.com/packages/marverenic/Colors/com.marverenic.colors/images/download.svg)](https://bintray.com/marverenic/Colors/com.marverenic.colors/_latestVersion)
 [![CircleCI](https://circleci.com/gh/marverenic/Colors.svg?style=svg)](https://circleci.com/gh/marverenic/Colors)
